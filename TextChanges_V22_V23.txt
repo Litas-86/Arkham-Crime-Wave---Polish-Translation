@@ -1,0 +1,30 @@
+
+[Delete the following]
+
+EventPlaceSouthCornerToOffice.text,A door is labelled,<i>\nPolice Office</i>
+EventPlaceSouthCornerToOffice.button1,{qst:QSTCONTINUE}
+
+EventPlaceSouthCornerToSouthStreet.text,The street continues.\n\n{qst:QSTPLACESIGHT}
+EventPlaceSouthCornerToSouthStreet.button1,{qst:QSTCONTINUE}
+
+
+[Change the following]
+
+quest.name,Arkham Crime Wave (v2.2)
+
+TokenEastStreetToCorner.text,You may only click {qst:QSTREVEAL} if you are in the {c:TileEastStreet} tile.
+
+TokenCornerToOffice.button1,{qst:QSTEXPLORE}
+
+UIFinaleIndianText.uitext,Your slumbers are interrupted by a dream of a medicine man holding a spirit chaser stick above his head and driving back the malign influence of the Lloigor.\nYou awake to find you're holding the {c:QItemPipes} and hearing distant haunting music.\nIn the morning, you feel compelled to return the relic to the people it belongs to.\nAfter several days of research, you discover the descendants of Chindah were driven out of the Miskatonic Valley.\nYou track down Eagle Feather, the last remaining relative of Chindah, living deep in the desert.\nWhen you hand him the pipes, he's grateful but he does not seem surprised.\nHe carries out a ritual to purify the relic and remove any trace of the corrupting influence of the Lloigor.\n
+
+UIFinaleDesertText.uitext,Eagle Feather carries out a ritual to purify the relic and remove any trace of the corrupting influence of the Lloigor.\nYou walk away through the desert, listening to the fading haunting sound of the traditional pipes, confident Chindah will be watching over Eagle Feather and the Misqat tribe.\nTogether, Chindah and Eagle Feather will prevent the return of the Lloigar.
+
+
+[Add the following]
+TokenCornerToEastStreet.button1,{qst:QSTREVEAL}
+EventPlaceCornerToOffice.text,A door is labelled,<i>\nPolice Office</i>\n\n{qst:QSTPLACEEXPLORE}
+EventPlaceCornerToOffice.button1,{qst:QSTCONTINUE}
+EventPlaceCornerToEastStreet.text,The street continues.\n\n{qst:QSTPLACESIGHT}
+EventPlaceCornerToEastStreet.button1,{qst:QSTCONTINUE}
+UIFinaleWrongKillerText.uitext,You dreams are disturbed by visions of the Lloigor.\nYou hear its cries coming from afar.\nYou have destroyed the physical body of the demonic creature but the killer completed the ritual summoning.\nYou have won but your victory is temporary.\nIn time the demonic entity will regain its strength.\nIt will, one day, use its malign influence on the benighted town of Arkham to find someone willing to serve it.\nYou pray there will be someone ready and able to destroy it once and for all.
