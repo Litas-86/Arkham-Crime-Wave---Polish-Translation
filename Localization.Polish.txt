@@ -1,7 +1,7 @@
 .,Polish
-quest.name,Fala zbrodni w Arkham (v2.3)
+quest.name,Fala zbrodni w Arkham (v2.4)
 quest.authors_short,Nicola Zee
-quest.description,Fala zbrodni w Arkham\n\nArtykuł w niedzielnej gazecie przykuwa twoją uwagę,\n <i>Fala Zbrodni w Arkham</i>.\nDwie ofiary morderstw w przeciągu tygodnia. Obie pozbawione kilku kości.\nTo niezwykłe, nawet jak na standardy Arkham.\nAutorka artykułu, Kathleen Ross, twierdzi, że miasto tonie w "szambie" przestępczości.\nPonadto wydawca i redaktor naczelny lokalnej gazety, James Johnson, oskarża o ten fakt gang O'Bannion.\n\nSpecjalne Uwagi\n\nFala zbrodni w Arkham jest scenariuszem poświęconym sprawie morderstwa.\nKluczowe dowody można sprawdzać przy użyciu aplikacji jednak autor zaleca prowadzenie własnych notatek.\nScenariusz jest kontynuacją oficjalnego scenariusza Gangi Arkham.\nNie musisz mieć za sobą rozgrywki w Gangi Arkham żeby zagrać w ten scenariusz.
+quest.description,Fala zbrodni w Arkham\n\nArtykuł w niedzielnej gazecie, zatytułowany <i>Fala Zbrodni w Arkham</i> przykuwa twoją uwagę.\nDwie ofiary morderstw w przeciągu tygodnia. Obie pozbawione kilku kości.\nTo niezwykłe, nawet jak na standardy Arkham.\nAutorka artykułu, Kathleen Ross, twierdzi, że miasto tonie w "szambie" przestępczości.\nPonadto wydawca i redaktor naczelny lokalnej gazety, John Johnson, oskarża o ten fakt gang O'Bannion.\n\nDodatkowe Uwagi\n\nFala zbrodni w Arkham jest scenariuszem poświęconym sprawie morderstwa.\nKluczowe dowody można sprawdzać przy użyciu aplikacji jednak autor zaleca prowadzenie własnych notatek.\nScenariusz jest kontynuacją oficjalnego scenariusza Gangi Arkham.\nNie musisz mieć za sobą rozgrywki w Gangi Arkham żeby zagrać w ten scenariusz.\nPostacie występujące w scenariuszu mogą posługiwać się językiem oraz przedstawiać poglądy, które były popularne w latach 20-tych ubiegłego wieku jednak nie odzwierciedlają one przekonań autora.
 QSTCANCEL,Anuluj
 QSTCONTINUE,Kontynuuj
 QSTREVEAL,Odsłoń
@@ -52,7 +52,7 @@ QSTKNOWNOTHING,<i>Nic nie wiem!</i>
 QSTOLDNEWSPAPERSX,{action} <i>Chcę przejrzeć stare numery gazet.</i>
 QSTOLDNEWSPAPERS,{action} <i>Kathleen trzymała pudło ze starymi gazetami.</i>
 QSTTHEFTTALK,{action} <i>Czy coś zostało skradzione?</i>
-QSTSOCIETY,Towarzystwo Historyczne Arkham
+QSTSOCIETY,Towarzystwo Historyczne w Arkham
 QSTGUARD,Mark Drew
 QSTPRIEST,Ojciec Murray
 QSTPIPES,Kościana fletnia
@@ -269,7 +269,6 @@ EventReporter2.button1,<i>{action} Jak mogę ci pomóc?</i>
 EventGainBike.button1,{qst:QSTCONTINUE}
 EventPlaceReporter2.text,{qst:QSTREPORTER} siedzi na swoim starym motocyklu.
 EventBike.text,<i>Żeton Żółtej Kobiety od tej chwili reprezentuje dziennikarkę na jej motorze.\nJego pozycja od tej pory nie będzie śledzona przez aplikację.\n\nJeżeli jesteś w zasięgu tego żetonu, możesz poświęcić {action} lub {clue} żeby przemieścić ją maksymalnie o {var:maxBikeMove} pola.\nDziennikarka może przemieszczać się jedynie po ulicach i może wykonać ruch co najwyżej dwa razy w jednej fazie Badaczy.\nJeśli figurka twojego Badacza znajduje się na tym samym polu co dziennikarka (w momencie gdy zaczyna ruch), możesz pojechać razem z nią.\n\nPodczas tego ruchu Badacza obowiązują standardowe zasady Uniku.</i>
-EventBouncerTalk.button1,{qst:QSTSADIEBERTTALK}
 EventGainBike.text,<i>Becky, mój motocykl, jest niewielka ale pomieści jeszcze jednego pasażera.</i>\n\n<b>Zasady korzystania z motocykla można sprawdzić korzystając z menu ekwipunku i wybraniu obrazka z motocyklem lub klikając na żeton Żółtej Kobiety znajdujący się obok planszy.</b>
 EventStealLedger.button3,Dwa {success}
 TokenDealer2.button1,{qst:QSTCONTINUE}
@@ -908,7 +907,6 @@ EventProfessorTheftSadieAlibi.button1,{qst:QSTCONTINUE}
 EventProfessorTheftSadieAlibi.text,<i>- Tylko trzy osoby podczas pokazu miałyby okazję żeby ukraść relikwię. Redaktor naczelny miejscowej gazety, John Johnson. Sklepikarka Lola Santiago i Naomi O'Bannion.\nPodejrzewałbym Lolę, gdyż była oburzona faktem wystawienia tego artefaktu na widok publiczny.\nPo kradzieży musiałem zwolnić strażnika, Marka Drew, ponieważ nie dopełnił swoich obowiązków.\nNadal nie mam pojęcia jak to się stało, że eksponat został skradziony i Mark tego nie zauważył.\nCały czas stał niedaleko gabloty.\nW dodatku kapitan Walker, z policji, zapewniał dodatkową ochronę.</i>\n\n<i>Zyskujesz 1 Wskazówkę {clue}.</i>
 EventProfessorPersuade.text,Profesor Smith przygląda ci się podejrzliwie.\nOpowiadasz mu o postępach śledztwa, które poczyniłeś dotyczących tajemniczych zbrodni w Arkham.\n\n<i>Wykonaj test ({influence}, 2) lub ({lore}, 2).\nJeśli posiadasz Księgę lub Dowód rzucasz dodatkową kością.</i>
 EventProfessorPersuade.button1,{qst:QSTPASS}
-EventProfessorTheftEditorAlibi.text,<i>- Tylko dwie osoby miałyby sposobność ukraść relikwię podczas specjalnego pokazu.\nTo byłaby sklepikarka, Lola Santiago lub Naomi O'Bannion.\nPo tym zdarzeniu musiałem zwolnić strażnika, Marka Drew, ponieważ nie dopełnił swoich obowiązków.\nNadal nie mam pojęcia jak to się stało, że eksponat został skradziony i Mark tego nie zauważył.\nCały czas stał niedaleko gabloty.\nW dodatku kapitan Walker, z policji, zapewniał dodatkową ochronę.</i>\n\n<i>Zyskujesz 1 Wskazówkę {clue}.</i>
 EventPlaceExhibit.button1,{qst:QSTCONTINUE}
 EventProfessorMissingStory1.text,<i>- Towarzystwo nie może sobie pozwolić na opłacanie strażników.\nTo jeden z powodów dla których mam tutaj na wszystko oko.\nBiorąc pod uwagę obecne nastroje i niepokoje w mieście, nie było innego wyjścia, niż zamknąć budynek dla zwiedzających.</i>
 EventProfessorMissingStory1.button1,{qst:QSTCONTINUE}
@@ -1240,7 +1238,7 @@ EventPlaceNaomiTalk.button1,{qst:QSTCONTINUE}
 EventPlaceNaomi1Tall.button1,{qst:QSTCONTINUE}
 EventBrandNaomiTall.text,Pamiętasz, że Naomi nosi wysokie obcasy, w których wzrostem dorównuje większości mężczyzn.
 EventArrestedTruckMore.text,<i>- Pomiędzy skrzynkami z whisky, znajdowało się pudełko ze składnikami do rytuałow, kości pradawnych jaszczurów oraz książek.\nByła tam także {c:QItemDeVermis}.\n</i>\n\n<i>{rnd:hero} zyskuje przedmiot {c:QItemDeVermis}.\n\n{qst:QSTEXAMINEITEM}</i>
-EventPriestProfessorAlibi.text,<i>- Funkcjonariusz Duncan miał mieć czytanie, jednak pod jego nieobecność profesor Smith zgodził się go zastąpić.\nJest dobrym katolikiem i regularnie uczestniczy w mszy.\nPrzyszedł wcześnie i pomagał w przygotowaniach, a potem wyszedł jako ostatni.</i>\n\n<i>Zyskujesz 1 Wskazówkę {clue}.</i>
+EventPriestProfessorAlibi.text,<i>- Funkcjonariusz Duncan miał mieć czytanie, jednak pod jego nieobecność profesor Smith zgodził się go zastąpić.\nJest dobrym katolikiem i regularnie uczestniczy w mszy.</i>\n\n<i>Zyskujesz 1 Wskazówkę {clue}.</i>
 EventGainHolyWater.text,Wrzucasz skromny datek do skrzynki.\nOjciec Murray zwraca się do ciebie.\n<i>- Proszę, weź trochę wody, którą właśnie święciłem.\nMoże ci się przyda.</i>\nNabierasz wody do piersiówki.\n\n<i>Zyskujesz przedmiot {c:QItemHolyWater}.</i>
 EventBrandNaomiCigLedger.button1,{qst:QSTCONTINUE}
 EventLedgerNaomiAlibi.button1,{qst:QSTCONTINUE}
@@ -1433,7 +1431,7 @@ EventLolaKillerEditorSheldonGang.button1,{qst:QSTCONTINUE}
 EventLolaKillerEditorOBannionGang.text,<i>- Trzy tygodnie temu, John Johnson został pobity przez zbirów z gangu O'Bannion.\nNie spodobały im się artykuły z jego gazety.</i>
 EventLolaKillerEditorOBannionGang.button1,{qst:QSTCONTINUE}
 EventLolaKillerStory2.button1,{qst:QSTCONTINUE}
-EventLolaKillerStory2.text,<i>- Dwa tygodnie temu, John Johnson został pobity przez zbirów z gangu O'Bannion.\nNie spodobał im się sposób w jaki ich opisał w Dzienniku Arkham.</i>
+EventLolaKillerStory2.text,<i>- Nikogo w mieście nie obchodzi co robią bandyci od O'Bannion dopóki nie nękają białych.\nArkham przepełnione jest ledwie skrywaną nienawiścią i rasizmem.\nKapitan Walker jest fanatykiem, który zamiast wykonywać swoją pracę dręczy prostych, pracujących ludzi takich jak ja.\nJohn Johnson stoi za kampanią mającą uczynić z Arkham, jak to nazywa, miejsce dla prawdziwych Amerykanów!\nMisqat byli tutaj zanim to miasto w ogóle powstało!\nAle mówię ci, to się skończy!\nNadejdzie czas rozliczeń!</i>
 EventMissingLinkClueAndAction.text,Fragmenty mogą zawierać brakujące informacje, które pomogą w rozwiązaniu śledztwa.\n\n<i>Zyskujesz 2 Wskazówki {clue}.\n\n{qst:QSTCLUEACTION}</i>
 EventMissingLinkClue.button1,{qst:QSTCONTINUE}
 EventLolaPipesStory2Default.button1,{qst:QSTCONTINUE}
@@ -1466,12 +1464,6 @@ EventGamblersNaomi.button1,{qst:QSTCONTINUE}
 EventGamblersDefault.text,Grupa groźnie wyglądających mężczyzn całkowicie cię ignoruje.
 EventGamblersDefault.button1,{qst:QSTCONTINUE}
 EventGamblersTalk.button2,{qst:QSTNEVERMIND}
-EventBouncerTalkBertie.button1,{qst:QSTCONTINUE}
-EventBouncerTalk.text,Za barem stoi mężczyzna i powoli wyciera szmatką szklankę.\nNawet na moment nie spuszcza cię z oczu.
-EventBouncerDefault.text,Mężczyzna za barem groźnie ci się przygląda.
-EventBouncerTalkBertie.text,Mężczyzna marszczy brwi i mówi:\n<i>- Nie zaufałbym Bertiemu za nic na świecie.\nFacet bawi się w jakieś niebezpieczne hokus pokus.\nJeśli jesteś jego przyjacielem, to jesteś jeszcze głupszy niż wyglądasz!</i>
-EventBouncerDefault.button1,{qst:QSTCONTINUE}
-EventBouncerTalk.button2,{qst:QSTNEVERMIND}
 EventHitmanMoveOneSpace.button2,Nie
 EventPlaceSocietyBarricade.text,Obok drzwi stoi gablota wystawowa.\nMożna ją przesunąć i zablokować drzwi.\n\n<i>Umieść żeton Barykady we wskazanym miejscu.</i>
 EventPlaceSocietyBarricade.button1,{qst:QSTCONTINUE}
@@ -1501,9 +1493,9 @@ EventReporter_Hint_Sadie.button2,{qst:QSTREPORTERSADIE}
 EventReporter_Hint_Sadie.button3,{qst:QSTNEVERMIND}
 EventReporterSadieShindig.button1,{qst:QSTCONTINUE}
 EventReporterSadieShindig.text,<i>- Impreza Sadie była w jej głównej spelunie, Szorstkim Kubku.\nTo po drugiej stronie rzeki w innej dzielnicy.\nMiałam nadzieję, że uda mi się czegoś dowiedzieć.\nCały wieczór miałam Sadie na oku.\nBertie Bingham próbował wszystkich czarować ale nikt się nie dał nabrać na takie gówno.\nBertie próbował nawet zrobić podchody do mnie.\nZanim się otrząsnęłam czułam się jak zahipnotyzowana.\nSadie uznała to za zabawne, gdy kazałam mu spieprzać.\nSadie znosi zachowanie Bertiego tylko dla tego, że jest pośrednikiem i współpracuje ze wszystkimi.\nSadie chce za wszelką cenę uniknąć kolejnej wojny gangów.\nBertie z kolei, jest dużo bardziej niebezpieczny niż na to wygląda.\nZauważyłam, że jak się zwinął późno w nocy, to wyszła z nim dziewczyna obcięta na chłopczycę.\nWydaje się, że na nią jego urok zadziałał.</i>
-EventMissingLinkS2Articles.text,<b>1. Naomi jest wiedźmą?</b>\nNiedawno Naomi przejęła przywództwo nad gangiem O'Banniona.\nPlotki mówią, że przy pomocy czarnej magii pozbyła się poprzedniego przywódcy, który był bardzo popularny wśród ludzi.\nJeśli to prawda, to jej własny gang może zwrócić się przeciw niej.\n\n<b>2. Miejscowa sklepikarka aresztowana</b>\nW zeszłym tygodniu, Lola Santiago, właścicielka Sklepu z Ciekawostkami, została aresztowana przez kapitana Walkera, komendanta lokalnej policji, pod zarzutem kradzieży i paserstwa.\nZostała jednak zwolniona, a wszystkie zarzuty wycofano.\n\n<b>3. Oficer policji dostaje ostatnie ostrzeżenie</b>\nTydzień temu, Walker otrzymał ostatnie ostrzeżenie od komendanta głównego za wykroczenia zawodowe i brak efektów.\nLola Santiago organizuje protest, domagając się dymisji Walkera.\n\n<b>4. W Towarzystwie Historycznym straszy</b>\nPrzechodnie twierdzą, że budynek, w którym znajduje się Towarzystwo Historyczne w Arkham, jest nawiedzony.\nW pobliżu słyszano dziwne dźwięki zakłócające ciszę nocną.\n\n<b>Skandal w Towarzystwie Historycznym</b>\nKrążą pogłoski o nieprawidłowościach w finansach Towarzystwa oraz znikających eksponatach i księgach.\nZarządcy Towarzystwa zapowiedzieli skrupulatne śledztwo w najbliższej przyszłości.
+EventMissingLinkS2Articles.text,<b>1. Naomi jest wiedźmą?</b>\nNiedawno Naomi przejęła przywództwo nad gangiem O'Banniona.\nPlotki mówią, że przy pomocy czarnej magii pozbyła się poprzedniego przywódcy, który był bardzo popularny wśród ludzi.\nJeśli to prawda, to jej własny gang może zwrócić się przeciw niej.\n\n<b>2. Miejscowa sklepikarka aresztowana</b>\nW zeszłym tygodniu, Lola Santiago, właścicielka Sklepu z Ciekawostkami, została aresztowana przez kapitana Walkera, komendanta lokalnej policji, pod zarzutem kradzieży i paserstwa.\nZostała jednak zwolniona, a wszystkie zarzuty wycofano.\n\n<b>3. Oficer policji dostaje ostatnie ostrzeżenie</b>\nTydzień temu, Walker otrzymał ostatnie ostrzeżenie od komendanta głównego za wykroczenia zawodowe i brak efektów.\nLola Santiago organizuje protest, domagając się dymisji Walkera.\n\n<b>4. Oczyścić hrabstwo Arkham!</b>\nLokalna gazeta prowadzi kampanię informującą o tym, że w Arkham mieszka zbyt wielu Indian, i że należy się ich pozbyć z hrabstwa.\nW rubryce z listami do redakcji pojawia się wiele głosów popierających to rozwiązanie.\nWśród obywateli popierających kampanię znajduje się kapitan Walker.\n\n<b>5. Skandal w Towarzystwie Historycznym</b>\nKrążą pogłoski o nieprawidłowościach w finansach Towarzystwa oraz znikających eksponatach i księgach.\nZarządcy Towarzystwa zapowiedzieli skrupulatne śledztwo w najbliższej przyszłości.
 EventRitualK5S1.text,Kaptur skrywał twarz Johna Johnsona.\nMężczyzna unosi do ust małą buteleczkę i pije jakąś zieloną ciecz.\n\n<i>- Bugs nie powinien był kraść artefaktu!\nTym bardziej nie powinien był odmawiać jego zwrotu!\nNie powinien mnie atakować w chacie.\nZasłużył na śmierć i jestem wdzięczny Lloigorowi za to, że pomógł mi go zabić.\nŻałuję, że Duncan zginął ale nie przestawał węszyć i Lloigor potrzebował kolejnej ofiary.\nJuż niedługo będę na tyle silny, że pozbędę się drabów z gangu O'Bannion!</i>\n\nNagle zaczyna krzyczeć przeraźliwie gdy jego ciało zaczyna się przeobrażać.
-EventRitualK5S2.text,Kaptur skrywał twarz Johna Johnsona.\nMężczyzna unosi do ust małą buteleczkę i pije jakąś zieloną ciecz.\n\n<i>- Kościana Fletnia należy do mnie!\nPułkownik Kane był moim przodkiem.\nStrażnik zasłużył na śmierć i jestem wdzięczny Lloigorowi, że pomógł mi go zabić.\nŻałuję, że Duncan zginął ale nie przestawał węszyć i Lloigor potrzebował kolejnej ofiary.</i>\n\nNagle zaczyna krzyczeć przeraźliwie gdy jego ciało zaczyna się przeobrażać.
+EventRitualK5S2.text,Kaptur skrywał twarz Johna Johnsona.\nMężczyzna unosi do ust małą buteleczkę i pije jakąś zieloną ciecz.\n\n<i>- Pułkownik Kane był moim przodkiem!\nBył prawdziwym bohaterem!\nUczyniłby wszystko żeby uchronić Arkham od indiańskiej zarazy!\nTak jak on jestem patriotą i oddam wszystko za dobro Arkham!</i>\n\nNagle zaczyna krzyczeć przeraźliwie gdy jego ciało zaczyna się przeobrażać.
 EventSadieNaomiStory1Killer1or2or4.text,<i>- Kazałam chłopcom żeby przyprowadzili Bugsa.\nMiał się wytłumaczyć, bo nie lubię kłopotów.\nNiedługo potem kapitan Walker go aresztował.\nNaomi uważa, że go na niego napuściłam ale Bugs sam ściągnął na siebie kłopoty.\nBugs został jednak wypuszczony.\nMoże Walker znowu spaprał śledztwo albo Naomi pociągnęła za odpowiednie sznurki.\nLudzie gadają, że Bugs uciekł z miasta.</i>
 EventLolaPipesStory1Killer3or4.button1,{qst:QSTCONTINUE}
 EventLolaPipesStory1Killer2or3or5.text,<i>- Miesiąc temu, gangster Bugs O'Flanagan przyszedł do mojego sklepu i zażądał pieniędzy za ochronę.\nNa szczęście John Johnson był na miejscu i kazał mu spływać.\nBugs wpadł w szał i cisnął o ścianę pierwszą rzeczą jaka nawinęła mu się pod rękę.\nByło to drewniane pudełko, które otworzyło się od uderzenia i wypadła z niego fletnia.\nGdy wypadła zaczęła wydawać z siebie niepokojące dźwięki.\nNiedługo po tym zdarzeniu pudełko zostało skradzione.\nWidziałam złodzieja jak uciekał i jestem pewna, że to był Bugs.\nJohn Johnson obiecał mi, że pomoże odzyskać artefakt nie bacząc na koszta.</i>\n\n<i>Zyskujesz 1 Wskazówkę {clue}.</i>
@@ -1543,5 +1535,55 @@ EventPlaceCornerToOffice.button1,{qst:QSTCONTINUE}
 EventPlaceCornerToEastStreet.text,Ulica ciągnie się dalej.\n\n<i>{qst:QSTPLACESIGHT}</i>
 EventPlaceCornerToEastStreet.button1,{qst:QSTCONTINUE}
 UIFinaleWrongKillerText.uitext,Twoje sny nawiedzają wizje Lloigora.\nSłyszysz jego zawodzenia dobiegające z daleka.\nCo prawda udało ci się zniszczyć jego fizyczną formę tej demonicznej kreatury, jednak morderca zdołał dopełnić rytuału przyzwania.\nZwyciężyłeś jednak twoje zwycięstwo jest jedynie tymczasowe.\nW końcu demoniczny byt odzyska siły.\nPewnego dnia znów wyciągnie macki swoich złowrogich wpływów w kierunku Arkham i znajdzie kogoś chętnego by mu służyć.\nModlisz się o to, żeby wtedy ktoś był gotowy stawić mu czoło i zniszczyć go raz na zawsze.
-,
+EventArrestedK5S2.text,<i>- Miałeś rację!\nZ pomocą policji z Newport dokonałem zatrzymania Johna Johnsona.\nFacet jest przekonany, że jest kolejnym wcieleniem pułkownika Kane'a.\nJohnson spędził mnóstwo czasu w Towarzystwie Historycznym studiując dzieje swojego przodka.\nWedług mnie Lloigor wślizgnął się do umysłu Johnsona i karmił jego gniewem, uprzedzeniami i fanatyzmem tak długo, aż doprowadził go do szaleństwa.\nJohnson zapoczątkował kampanię prasową dążącą do wypędzenia Indian Misqat z hrabstwa Arkham.\nLloigor pomógł mu ukraść fletnię i złożyć w ofierze Duncana i ochroniarza.\nJohnson sam podłożył ogień w redakcji żeby zniszczyć archiwa.</i>
+EventBibleStory2More.text,<i>- {qst:QSTPROFESSOR} może nie być takim praworządnym obywatelem na jakiego z pozoru wygląda.\n{qst:QSTNAOMI} odwiedzała muzeum kilkukrotnie.\nProfesor przyjaźni się z członkiem gangu Sheldona, Tony'm Zavaronim.\n\n{qst:QSTEDITOR} często odwiedzał {qst:QSTSOCIETY} i szukał informacji o swoim drzewie genealogicznym.\nUtrzymywał te wizyty w tajemnicy ponieważ uważa, że jeden z jego przodków dopuścił się nikczemnych czynów.</i>
+EventBibleStory2More.button1,{qst:QSTCONTINUE}
+QSTKNOWBERTIE,{action} Znasz Bertiego Binghama?
+QSTKNOWPROF,{action} Znasz profesora Smitha?
+QSTBOUNCERDEFAULT,Za barem stoi mężczyzna polerujący szklankę i uważnie ci się przygląda.
+EventBouncerTalk.text,{qst:QSTBOUNCERDEFAULT}
+EventBouncerTalk.button1,{qst:QSTSADIEBERTTALK}
+EventBouncerTalk.button2,{qst:QSTNEVERMIND}
+EventBouncerTalkBertie.text,<i>- Za nic nie ufałbym Bertiemu.\nBawi się w jakieś niebezpieczne hokus pokus.\nJeśli jesteś jego przyjacielem, to jesteś głupszy niż wyglądasz!</i>
+EventBouncerTalkBertie.button1,{qst:QSTCONTINUE}
+EventBouncerTalkProf.text,Tony wydaje się zaskoczony twoim pytaniem.\n<i>- Pewnie, że znam profesora.\nNie jesteśmy przyjaciółmi ale się znamy.\nSłużyliśmy razem podczas Wielkiej Wojny.\nWidziałem tam rzeczy, których nie da się zapomnieć.\nJa jestem twardy ale niektórzy nie wrócili już tacy sami, jeśli wiesz co mam na myśli.</i>
+EventBouncerTalkProf.button1,{qst:QSTCONTINUE}
+EventBouncerTalkProfAlibi.text,Tony wydaje się zaskoczony twoim pytaniem.\n<i>- Pewnie, że znam profesora.\nCzasami się spotykamy.\nBył moim porucznikiem podczas Wielkiej Wojny.\nZostał ciężko ranny, a ja odciągnąłem go na nasze linie.\nW tym roku jego stara rana znów zaczęła dawać o sobie znać.\nTeraz ledwie jest w stanie unieść łopatę.\nW zeszłym tygodniu odwiedziłem go w szpitalu na drugim brzegu.\nUsunęli mu kawałek szrapnela, który kiedyś pominęli.\nPrzedwczoraj go wypisali.</i>\n\n<i>{qst:QSTGAINCLUE}</i>
+EventBouncerTalkProfAlibi.button1,{qst:QSTCONTINUE}
+EventBouncerTalk_Bertie_Prof.text,{qst:QSTBOUNCERDEFAULT}
+EventBouncerTalk_Bertie_Prof.button1,{qst:QSTKNOWBERTIE}
+EventBouncerTalk_Bertie_Prof.button2,{qst:QSTKNOWPROF}
+EventBouncerTalk_Bertie_Prof.button3,{qst:QSTNEVERMIND}
+EventBouncerTalk_Bertie.text,{qst:QSTBOUNCERDEFAULT}
+EventBouncerTalk_Bertie.button1,{qst:QSTKNOWBERTIE}
+EventBouncerTalk_Bertie.button2,{qst:QSTNEVERMIND}
+EventBouncerTalk_Prof.text,{qst:QSTBOUNCERDEFAULT}
+EventBouncerTalk_Prof.button1,{qst:QSTKNOWPROF}
+EventBouncerTalk_Prof.button2,{qst:QSTNEVERMIND}
+EventBouncerDefault.text,{qst:QSTBOUNCERDEFAULT}
+EventBouncerDefault.button1,{qst:QSTCONTINUE}
+QSTAUTOPSYFAIL,Przeprowadzenie autopsji jest ciężkie jednak jesteś blisko końca.
+EventSlabExamineFail.text,{qst:QSTAUTOPSYFAIL}
+EventSlabExamineFail.button1,{qst:QSTCONTINUE}
+EventFreezerSearchFail.text,{qst:QSTAUTOPSYFAIL}
+EventFreezerSearchFail.button1,{qst:QSTCONTINUE}
+EventBrandProfessorAlibi.text,Pamiętasz, że gangster, Tony Zavaroni twierdził, że profesor Smith leżał w szpitalu i został wypisany przedwczoraj.
+EventBrandProfessorAlibi.button1,{qst:QSTCONTINUE}
+EventPoliceResignFail.text,<i>- Tacy mąciciele jak ty i Duncan nic tylko rozpowszechniacie oszczerstwa o mnie!\nZmówiliście się, żeby się mnie pozbyć!</i>
+EventPoliceResignFail.button1,{qst:QSTCONTINUE}
+TokenSetKillerStory1.text,Wybierz zabójcę dla Historii 1
+TokenSetKillerStory1.button1,Zabójca 1 {qst:QSTSADIE}
+TokenSetKillerStory1.button2,Zabójca 2 {qst:QSTNAOMI}
+TokenSetKillerStory1.button3,Zabójca 3 {qst:QSTLOLA}
+TokenSetKillerStory1.button4,Zabójca 4 {qst:QSTPOLICE}
+TokenSetKillerStory1.button5,Zabójca 5 {qst:QSTEDITOR}
+TokenSetKillerStory2.text,Wybierz zabójcę dla Historii 2
+TokenSetKillerStory2.button1,Zabójca 2 {qst:QSTNAOMI}
+TokenSetKillerStory2.button2,Zabójca 3 {qst:QSTLOLA}
+TokenSetKillerStory2.button3,Zabójca 4 {qst:QSTPOLICE}
+TokenSetKillerStory2.button4,Zabójca 5 {qst:QSTEDITOR}
+TokenSetKillerStory2.button5,Zabójca 6 {qst:QSTPROFESSOR}
+TokenTest.text,Testuj
+TokenTestStoryVariables.button1,{qst:QSTCONTINUE}
+TokenTestMythosVariables.text,Runda: {var:#round}\nBadacze: {var:#heroes}\nMythos Minor: {var:$mythosMinor}\nMythos Major: {var:$mythosMajor}\nMythos Deadly: {var:$mythosDeadly}
 ,

@@ -1,0 +1,77 @@
+[Delete the following as there are new dialogue for the Speakeasy Bouncer Tony]
+EventBouncerTalkBertie.text,The guy scowls at you and says,<i>\nI wouldn't trust Bertie as far as I could throw him.\nHe messes with all kinds of dangerous hocus-pocus.
+EventBouncerTalkBertie.button1,{qst:QSTCONTINUE}
+EventBouncerDefault.text,The guy behind the bar scowls at you.\nIf you're a friend of his, you're even dumber than you look!</i>
+EventBouncerDefault.button1,{qst:QSTCONTINUE}
+EventBouncerTalk.text,The guy stands behind the bar slowly polishing a glass.\nHe scowls at you.
+EventBouncerTalk.button1,{qst:QSTSADIEBERTTALK}
+EventBouncerTalk.button2,{qst:QSTNEVERMIND}
+EventProfessorTheftEditorAlibi.text,...
+
+
+[Remove the following line only]
+EventPriestProfessorAlibi.text,-> He arrived early to help set things up and he was the last to leave.\n <-
+
+
+[Change the following]
+quest.description,Arkham Crime Wave\n\nAn article in the Sunday newspaper catches your eye,\n <i>Arkham Crime Wave</i>.\nTwo murder victims in a week and both missing several bones.\nEven for Arkham, that is unusual.\nThe writer of the article, Kathleen Ross, claims the town is sinking into a cesspit of crime.\nA editorial comment by John Johnson blames the notorious O'Bannion gang.\n\nSpecial Notes\n\nArkham Crime Wave is a murder mystery.\nThe key evidence can be checked by examining items but\nnote-taking is recommended.\nIt is a sequel to the FFG scenario Gangs of Arkham.\nYou do not have to play Gangs of Arkham before playing.\nLike Gangs of Arkham, there is some 1920's slang.\nThe characters may use language and express views typical of the 1920's but not condoned by the author.
+
+EventLolaKillerStory2.text,<i>The town don't care what the O'Bannion thugs get up to as long as White folk are left alone.\nArkham is riven by race hate.\n{qst:QSTPOLICE} is a bigot who bullies hard-working shop-keepers like myself instead of doing his job.\n{qst:QSTEDITOR} is behind the campaign to make Arkham, as he calls it, 'a fit place for genuine Americans'!\nThe Misqat were here long before this town even existed!\nI tell you, things will come to a head\nThere will be a reckoning!</i>
+
+EventMissingLinkS2Articles.text,<b>1. Is Naomi a Witch?</b>\nRecently, Naomi took over leadership of the O'Bannion gang.\nThere is a rumour she used black magic to kill the previous popular leader.\nIf true, the O'Bannion gang will turn on her.\n\n<b>2. Local Shopkeeper Arrested</b>\nLast week, Lola Santiago, the owner of the Curiosity Shop, was arrested by {qst:QSTPOLICE} on suspicion of theft and handling stolen goods.\nShe was released with all charges dropped.\n\n<b>3. Police Officer Given Final Warning</b>\nLast week, Walker was given a final warning by the Police Commissioner for professional misconduct.\nLola Santiago is organising a protest demanding his resignation.\n\n<b>4. Cleanse Arkham County!</b>\nA newspaper campaign claims there are too many Native Americans living in Arkham and they should be forced to leave the county.\nIn the letters pages, several citizens support the campaign, including Walker.\n\n<b>5. Historical Society Scandal!</b>\nThere are rumors of financial irregularities and valuable relics and tomes have gone missing.\nThe Trustees of the Society have announced they will soon be carrying out a full investigation.
+
+EventRitualK5S2.text,Beneath the hood is John Johnson.\nHe takes a drink from a small green bottle.\n{qst:QSTCOLONEL} was my ancestor!\nHe was a hero, willing to do anything to protect Arkham from the Indian peril!\nLike him, I'm a patriot ready to die for what I believe in!\n\n</i>Suddenly, he screams as his body transforms.
+
+
+[Add the following]
+EventArrestedK5S2.text,Agent Craven says,<i>\nYou were right!\nWith the help of the Newport Police, I arrested John Johnson.\nHe's convinced he's the reincarnation of {qst:QSTCOLONEL}.\nJohnson spent a lot of time at the {qst:QSTSOCIETY} researching his ancestor.\nMy guess is the Lloigor entered Johnson's mind and fed his anger, prejudence and bigotry until he was driven mad.\nJohnson started the newspaper campaign to drive the last of the Misqat out of Arkham County.\nThe Lloigor helped him steal the pipes and sacrifice both the security guard and {qst:QSTDUNCAN}.\nJohnson set fire to his own newspaper office to destroy the newspaper archive.</i>
+EventBibleStory2More.text,<i>{qst:QSTPROFESSOR} might not be the upstanding citizen he appears to be.\n{qst:QSTNAOMI} made several visits to the museum.\nThe Professor is friends with a member of the Sheldon gang, Tony Zavaroni.\n\n{qst:QSTEDITOR} made frequent visits to the {qst:QSTSOCIETY} to check up on his family tree.\nHe is keeping the visits secret because he believes a distant ancestor of his has a notoriously dark past.</i>
+EventBibleStory2More.button1,{qst:QSTCONTINUE}
+QSTKNOWBERTIE,{action} Do you know {qst:QSTBERTIE}?
+QSTKNOWPROF,{action} Do you know {qst:QSTPROFESSOR}?
+QSTBOUNCERDEFAULT,The guy stands behind the bar slowly polishing a glass.\nHe scowls at you.
+EventBouncerTalk.text,{qst:QSTBOUNCERDEFAULT}
+EventBouncerTalk.button1,{qst:QSTSADIEBERTTALK}
+EventBouncerTalk.button2,{qst:QSTNEVERMIND}
+EventBouncerTalkBertie.text,The guy scowls at you and says,<i>\nI wouldn't trust Bertie as far as I could throw him.\nHe messes with all kinds of dangerous hocus-pocus.\nIf you're a friend of his, you're even dumber than you look!</i>
+EventBouncerTalkBertie.button1,{qst:QSTCONTINUE}
+EventBouncerTalkProf.text,Tony looks surprised you asked,\n<i>Sure, I know {qst:QSTPROFESSOR}.\nWe're not friends but we keep in touch.\nWe served together in the Great War.\nI saw things I ain't gonna forget.\nI'm tough but some don't come back the same - if you know what I mean! 
+EventBouncerTalkProf.button1,{qst:QSTCONTINUE}
+EventBouncerTalkProfAlibi.text,Tony looks surprised you asked,\n<i>Sure, I know {qst:QSTPROFESSOR}.\nWe sometimes keep in touch.\nHe was my lieutenant in the Great War.\nHe was badly wounded.\nI helped drag him back to the lines.\nThis year his wound had started to play up again.\nHe can barely lift up a shovel.\nLast week, I visited him in the hospital across the river.\nHe had a piece of shrapnel removed from his shoulder.\nHe was discharged yesterday.</i>\n\n{qst:QSTGAINCLUE}
+EventBouncerTalkProfAlibi.button1,{qst:QSTCONTINUE}
+EventBouncerTalk_Bertie_Prof.text,{qst:QSTBOUNCERDEFAULT}
+EventBouncerTalk_Bertie_Prof.button1,{qst:QSTKNOWBERTIE}
+EventBouncerTalk_Bertie_Prof.button2,{qst:QSTKNOWPROF}
+EventBouncerTalk_Bertie_Prof.button3,{qst:QSTNEVERMIND}
+EventBouncerTalk_Bertie.text,{qst:QSTBOUNCERDEFAULT}
+EventBouncerTalk_Bertie.button1,{qst:QSTKNOWBERTIE}
+EventBouncerTalk_Bertie.button2,{qst:QSTNEVERMIND}
+EventBouncerTalk_Prof.text,{qst:QSTBOUNCERDEFAULT}
+EventBouncerTalk_Prof.button1,{qst:QSTKNOWPROF}
+EventBouncerTalk_Prof.button2,{qst:QSTNEVERMIND}
+EventBouncerDefault.text,{qst:QSTBOUNCERDEFAULT}
+EventBouncerDefault.button1,{qst:QSTCONTINUE}
+QSTAUTOPSYFAIL,The autopsy is messy and difficult but you are close to success.
+EventSlabExamineFail.text,{qst:QSTAUTOPSYFAIL}
+EventSlabExamineFail.button1,{qst:QSTCONTINUE}
+EventFreezerSearchFail.text,{qst:QSTAUTOPSYFAIL}
+EventFreezerSearchFail.button1,{qst:QSTCONTINUE}
+EventBrandProfessorAlibi.text,You recall the gangster, Tony Zavaroni, claims the Professor was in hospital and was discharged yesterday.
+EventBrandProfessorAlibi.button1,{qst:QSTCONTINUE}
+EventPoliceResignFail.text,Police Officer Walker shouts,<i>\nMeddling do-gooders like you and Duncan are spreading fake lies.\nYou're all out to get me!</i>
+EventPoliceResignFail.button1,{qst:QSTCONTINUE}
+TokenSetKillerStory1.text,Set Killer for Story 1
+TokenSetKillerStory1.button1,Killer 1 {qst:QSTSADIE}
+TokenSetKillerStory1.button2,Killer 2 {qst:QSTNAOMI}
+TokenSetKillerStory1.button3,Killer 3 {qst:QSTLOLA}
+TokenSetKillerStory1.button4,Killer 4 {qst:QSTPOLICE}
+TokenSetKillerStory1.button5,Killer 5 {qst:QSTEDITOR}
+TokenSetKillerStory2.text,Set Killer for Story 2
+TokenSetKillerStory2.button1,Killer 2 {qst:QSTNAOMI}
+TokenSetKillerStory2.button2,Killer 3 {qst:QSTLOLA}
+TokenSetKillerStory2.button3,Killer 4 {qst:QSTPOLICE}
+TokenSetKillerStory2.button4,Killer 5 {qst:QSTEDITOR}
+TokenSetKillerStory2.button5,Killer 6 {qst:QSTPROFESSOR}
+TokenTest.text,Test
+TokenTestStoryVariables.button1,{qst:QSTCONTINUE}
+TokenTestMythosVariables.text,Round: {var:#round}\nHeroes: {var:#heroes}\nMythos Minor: {var:$mythosMinor}\nMythos Major: {var:$mythosMajor}\nMythos Deadly: {var:$mythosDeadly}
