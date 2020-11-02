@@ -1,5 +1,5 @@
 .,Polish
-quest.name,Fala zbrodni w Arkham (v2.4)
+quest.name,Fala zbrodni w Arkham (v2.6)
 quest.authors_short,Nicola Zee
 quest.description,Fala zbrodni w Arkham\n\nArtykuł w niedzielnej gazecie, zatytułowany <i>Fala Zbrodni w Arkham</i> przykuwa twoją uwagę.\nDwie ofiary morderstw w przeciągu tygodnia. Obie pozbawione kilku kości.\nTo niezwykłe, nawet jak na standardy Arkham.\nAutorka artykułu, Kathleen Ross, twierdzi, że miasto tonie w "szambie" przestępczości.\nPonadto wydawca i redaktor naczelny lokalnej gazety, John Johnson, oskarża o ten fakt gang O'Bannion.\n\nDodatkowe Uwagi\n\nFala zbrodni w Arkham jest scenariuszem poświęconym sprawie morderstwa.\nKluczowe dowody można sprawdzać przy użyciu aplikacji jednak autor zaleca prowadzenie własnych notatek.\nScenariusz jest kontynuacją oficjalnego scenariusza Gangi Arkham.\nNie musisz mieć za sobą rozgrywki w Gangi Arkham żeby zagrać w ten scenariusz.\nPostacie występujące w scenariuszu mogą posługiwać się językiem oraz przedstawiać poglądy, które były popularne w latach 20-tych ubiegłego wieku jednak nie odzwierciedlają one przekonań autora.
 QSTCANCEL,Anuluj
@@ -76,7 +76,7 @@ EventPlaceMorgue.text,Wchodzi z powrotem do piwnicy.\n\n<i>Umieść  {qst:QSTTIL
 EventPlaceInvestigators.text,Wchodzisz do kostnicy.\n\nZimny przeciąg hula w surowym pomieszczeniu niosąc ze sobą mdlący zapach rozkładu i chloru.\n\n<i>Umieśćcie figurki swoich Badaczy we wskazanym miejscu.</i>
 EventPlaceInvestigators.button1,{qst:QSTCONTINUE}
 UIIntroButton1.uitext,{qst:QSTCONTINUE}
-quest.authors,Autor: Nicola Zee
+quest.authors,Autor: Nicola Zee\nKoretka i tłumaczenie PL: Litas
 EventPlaceMorgueToOffice.text,<i>- Kapitan Walker jest tutaj.\nWłaśnie przesłuchuje reporterkę, Kathleen Ross.\nW jego biurze znajduje się aparat telefoniczny podłączony do bezpośredniej linii do komisariatu policji w Newport.</i>\n\n{qst:QSTPLACEEXPLORE}
 TokenMorgueToOffice.button1,{action} Eksploruj
 EventPlaceOffice.text,Drzwi prowadzą do komisariatu policji.\n\nW powietrzu unosi się kwaśny zapach starego tytoniu i potu.\n\n<i>Umieść kafelek {c:TileOffice} we wskazanym miejscu.\n\nUmieść 1 żeton Drzwi we wskazanym miejscu.</i>
@@ -683,7 +683,7 @@ EventMainStreetToSquare.button1,{qst:QSTCONTINUE}
 EventReporter2.button2,{qst:QSTCANCEL}
 EventReporterTalkStory1.text,<i>- Jest coś czego nie mogłam ci powiedzieć przy Walkerze.\nNie można mu ufać.\nWydaje mi się, że gang Sheldona go opłaca.</i>
 EventReporterTalkStory2.text,<i>- Jest coś czego nie mogłam ci powiedzieć przy Walkerze.\nDuncan jest przekonany, że Walker handluje zarekwirowanym alkoholem i tytoniem.\nDuncan przekonał komendanta głównego żeby zaostrzyć nadzór nad magazynem dowodów.\nWalker zaczyna interesować się przemytem żeby poszerzyć dopływ towarów.\nGang O'Bannion chroni swój teren.\nBędą kłopoty pomiędzy Walkerem i Naomi.</i>
-quest.synopsys,Arham zalewa fala zbrodni. Czy stoi za tym gang O'Banniona?
+quest.synopsys,Arkham zalewa fala zbrodni. Czy stoi za tym gang O'Banniona?
 EventArrestSuspect7.text,Jesteś pewien, że mam aresztować ojca Murraya?
 EventArrestSuspect7.button1,Tak, na pewno.
 EventSolveMystery.button8,Aresztuj Bertiego Binghama.
@@ -1358,8 +1358,8 @@ EventPuzzleLedgerClue.button1,{qst:QSTCONTINUE}
 EventPuzzleLedger.text,Zapiski w notesie są zaszyfrowane.
 EventPuzzleLedger.button1,{action} Złam szyfr
 EventPuzzleLedger.button2,{qst:QSTCANCEL}
-PuzzleLedger34Level4.button1,{action} Przeczytaj notes
-PuzzleLedger42Level4.button1,{action} Przeczytaj notes
+PuzzleLedger34Level4.button1,Przeczytaj notes
+PuzzleLedger42Level4.button1,Przeczytaj notes
 PuzzleLedger34Level5.button1,{qst:QSTREADLEDGER}
 PuzzleLedger42Level5.button1,{qst:QSTREADLEDGER}
 PuzzleLedger53Level5.button1,{qst:QSTREADLEDGER}
