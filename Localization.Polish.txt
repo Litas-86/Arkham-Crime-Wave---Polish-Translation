@@ -656,7 +656,7 @@ EventBike.button2,Anuluj
 EventEndRoundSpawnProtest.text,Pojawiający się na ulicach mąciciele spowodowali, że protest nagle stał się o wiele bardziej brutalny.
 EventMythosRound2.text,Tłum zgromadzony na placu krzyczy:\n<i>Zatrzymać O'Bannion!\nPrecz z korupcją w policji!</i>\n\nBrak natychmiastowego efektu.
 EventSpawnProtest.button1,Button1
-EventGainCrowbar.text,Przywódca protestu upuszcza swój łom na ziemię.\n\n<i>Umieść przedmiot {c:QItemCrowbar} we wskazanym miejscu.</i>
+EventGainCrowbar.text,Przywódca protestu upuszcza swój łom na ziemię.\n\n<i>Umieść przedmiot {c:QItemCrowbar} we wskazanym miejscu.\nTego przedmiotu nigdy nie można upuścić ani odrzucić.</i>
 EventGainCrowbar.button1,{qst:QSTCONTINUE}
 EventCastWhirlwindPass.button1,{qst:QSTCONTINUE}
 EventFlapperDefault.text,Dziewczyna poświęca całą swoją uwagę starając się zdobyć kolejnego drinka i nie zwraca na ciebie uwagi.
@@ -1256,7 +1256,7 @@ EventLedgerNaomiCigs.button1,{qst:QSTCONTINUE}
 EventMoveWhirlwindPass.text,Tornado przesuwa się ulicą rozrywając na strzępy wszystko dookoła.\n\n<i>Przemieść żeton Oddziaływania o maksymalnie 3 pola.\nŻetonu nie można przemieszczać do wnętrz pomieszczeń.\nKażdy Badacz i Potwór znajdujący się na polu, na które przemieści się żeton przyjmują {var:numberWindDamge} kart Obrażeń (Obrażeń).</i>
 EventMoveWhirlwindPass.button1,{qst:QSTCONTINUE}
 EventMoveWhirlwind.button2,{qst:QSTFAIL}
-EventEditorNaomiMore.text,<i>- Naomi prowadzi swoją szulernię obok, w klubie bilardowym.\nKażdy z kasą jest mile widziany.\nJednym z jej najbardziej zaufanych ludzi jest jej księgowy, Quinn.\n\nOd czasu do czasu robi też za krupiera ale niech cię nie zmyli jego wygląd.\nZna większość sekretów Naomi ale jest znany z tego, że milczy jak grób.</i>\n\n<i>{qst:QSTGAINCLUE}</i>
+EventEditorNaomiMore.text,<i>- Naomi prowadzi swoją szulernię obok, w klubie bilardowym.\nKażdy z kasą jest mile widziany.\nJednym z jej najbardziej zaufanych ludzi jest jej księgowy.\n\nOd czasu do czasu robi też za krupiera ale niech cię nie zmyli jego wygląd.\nZna większość sekretów Naomi ale jest znany z tego, że milczy jak grób.</i>\n\n<i>{qst:QSTGAINCLUE}</i>
 EventEditorNaomiMore.button1,{qst:QSTCONTINUE}
 EventInvestigatorsStartClues.text,Rozważacie dokładnie to co powiedział wam agent Craven.\n\n<i>Każdy Badacz otrzymuje {var:numberStartClues} Wskazówek {clue}.</i>
 EventManuscriptClue.text,Zdajesz sobie sprawę, że manuskrypt opowiada jak duch szamana pomógł zniszczyć Lloigora w XVIII wieku.\n\n<i>{qst:QSTGAINCLUE}</i>
