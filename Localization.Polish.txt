@@ -194,13 +194,6 @@ SpawnProtestors.button1,{qst:QSTCONTINUE}
 EventPlaceProtesters1.button1,{qst:QSTCONTINUE}
 EventPlaceMainStreetProtest.button1,{qst:QSTCONTINUE}
 EventShopReceiptsCigars.button1,{qst:QSTCONTINUE}
-EventSelectKiller.text,Wskaż mordercę.
-EventSelectKiller.button1,{qst:QSTOLDSADIE}
-EventSelectKiller.button2,Sadie Sheldon
-EventSelectKiller.button3,{qst:QSTNAOMITALK}
-EventSelectKiller.button4,{qst:QSTPOLICE}
-EventSelectKiller.button5,{qst:QSTPROFESSOR}
-EventSelectKiller.button6,{qst:QSTLOLA}
 EventPlacePriest.text,Ksiądz w średnim wieku pochłonięty jest modlitwą.\n\nNa jego twarzy maluje się zmęczenie i troska.\n\n<i>Umieść żeton Szarego Mężczyzny we wskazanym miejscu.</i>
 EventPlaceAlley.button1,{qst:QSTCONTINUE}
 EventPlaceSociety.button1,{qst:QSTCONTINUE}
@@ -211,7 +204,7 @@ EventPlaceSpeakeasyDoor.button1,{qst:QSTCONTINUE}
 EventUnlockSpeakeasyDoor.text,Drzwi są zamknięte.
 EventUnlockSpeakeasyDoor.button1,{qst:QSTCONTINUE}
 TokenAlleyToSpeakeasy.button1,Zapukaj do drzwi.
-EventPlaceProtesters1.text,Tłum zaczyna się gromadzić wokół wejścia do sklepu.\nW miarę jak zbiera się coraz więcej osób, zauważasz, że niektórzy wchodzą do sklepu, by po chwili wyjść z transparentami wymalowanymi na kartonach.\n\n<i>Umieść żeton Zamieszek we wskazanym miejscu. Możesz też użyć figurki, jednak nie traktuj jej jako potwora.\nZamieszek nie można zaatakować ani przesunąć.\n\nJeśli Badacz będzie chciał opuścić pole zawierające żeton (lub figurkę) Zamieszek musi wybrać opcję Unik klikając najpierw na żeton Zamieszek w aplikacji.</i>
+EventPlaceProtesters1.text,Tłum zaczyna się gromadzić wokół wejścia do sklepu.\nW miarę jak zbiera się coraz więcej osób, zauważasz, że niektórzy wchodzą do sklepu, by po chwili wyjść z transparentami wymalowanymi na kartonach.\nOstatecznie tłum blokuje cały wylot ulicy.\n\n<i>Umieść żeton Zamieszek we wskazanym miejscu. Możesz też użyć figurki, jednak nie traktuj jej jako potwora.\nZamieszek nie można zaatakować ani przesunąć.\n\nPomimo tego, że żeton nie zajmuje obu dolnych pól placy traktuj go jakby znajdował się na obu polach.\nJeśli Badacz będzie chciał opuścić pole zawierające żeton (lub figurkę) Zamieszek musi wybrać opcję Unik klikając najpierw na żeton Zamieszek w aplikacji.</i>
 EventSewerCoverSuccess.text,Na fragmencie obręczy zauważasz wyblakłe ślady krwi.\nKtoś niedawno odsuwał pokrywę kanału.\nUdaje ci się ją unieść i odsunąć na bok.
 EventSewerCoverSuccess.button1,{qst:QSTCONTINUE}
 TokenHut.text,Wewnątrz chatki znajduje się spróchniały stół i połamane krzesła.\nWnętrze nosi ślady walki.
@@ -236,7 +229,7 @@ EventKillerSmokesCigar.text,Znajdujesz niedopałki cygar.\n\n<i>Zyskujesz przedm
 EventManholeOpen.text,Przy pomocy łomu udaje ci się odsunąć ciężką pokrywę na bok.\nWewnątrz kanału panuje nieprzenikniony mrok, z którego dobiega szum wody.
 EventPlaceManHoleInteract.text,<i>- Duncan mówił, że zamierza sprawdzić kanały na końcu ulicy.</i> - informuje cię Kathleen Ross.\n\n<i>Proszę pospieszcie się! Mam przeczucie, że stało się coś stracznego!</i>\n\n<i>Umieść żeton Oddziaływania we wskazanym miejscu.</i>
 EventPlaceCornerToBeach.button1,{qst:QSTCONTINUE}
-EventGainAzureFlame.text,Obok tabliczki z napisem, <i>Kamień ognia Indian Misqat</i>, leży niewielki fragment czerwonego piaskowca. Kamień jest pokryty w całości dziwnymi runami. Jest dziwnie ciepły i gdy go dotykasz emanuje niewielką poświatą.\nJest na tyle mały, że bez problemu chowasz go w kieszeni.\n\n<i>Zyskujesz Zaklęcie {c:QItemAzureFlame}.\n\nTo jest kluczowy przedmiot i nie może zostać odrzucony.</i>
+EventGainAzureFlame.text,Obok tabliczki z napisem, <i>Kamień ognia Indian Misqat</i>, leży niewielki fragment czerwonego piaskowca. Kamień jest pokryty w całości dziwnymi runami. Jest dziwnie ciepły i gdy go dotykasz emanuje niewielką poświatą.\nJest na tyle mały, że bez problemu chowasz go w kieszeni.\n\n<i>Zyskujesz Zaklęcie {c:QItemAzureFlame}.\n\nTego przedmiotu nigdy nie można upuścić ani odrzucić..</i>
 EventSearchOffice.button1,{qst:QSTPASS}
 TokenSewerLedge.text,Pod występem rwące ścieki wpadają na wschód prosto w wody rzeki Miskatonic.\nOpodal krawędzi zauważasz niewielką kupkę popiołu.\nNa ścianie, wysoko ponad krawędzią znajduje się ślad po wezbranych wodach rzeki.\nWszystko co znajduje się na tym występie zostanie zmyte przez wodę podczas najbliższego deszczu.\n\n<i>Możesz użyć żetonu Przeszukiwania jedynie jeśli pole z żetonem jest oświetlone (nie ma na nim żetonu Ciemności lub posiadasz Źródło Światła).</i>
 EventSewerLedge.button1,Sukces
@@ -632,7 +625,7 @@ SpawnPriestOfDagonWizard.button1,{qst:QSTCONTINUE}
 EventRitualK1.text,Kaptur skrywał twarz Sadie Sheldon.\nKobieta unosi do ust małą buteleczkę i pije jakąś zieloną ciecz.\n\n<i>- Nareszcie! Lloigor obdaruje mnie mocą przekraczającą moje najśmielsze fantazje!\nPewnie, musiałam zabić Duncana i tego włóczęgę Bugsa ale ni powinni byli stawać mi na drodze!\nŻałuję jedynie, że musiałam zabić ojca.\nWiek zrobił z niego słabego głupca!</i>\n\nNagle zaczyna krzyczeć przeraźliwie gdy jej ciało zaczyna się przeobrażać.
 EventRitualWaterspout.text,Zrywa się porywisty wicher i nad rzeką Miskatonic powstaje trąba wodna.\nWody rzeki burzą się i pienią.\nWiatr porywa ofiarę i znosi ją ku niebu.\nNiesamowicie silny podmuch zwala cię z nóg.\nPadasz na ziemię, a dookoła ciebie z nieba spadają ryby porwane z rzeki.\nLeżysz nie mogąc się podnieść, dookoła deszczu ryb, kości i krwi.\nZ niespokojnej rzeki zaczynają wyłaniać się szkielety.
 SpawnKillerChildOfDagon.text,<i>Wystaw Dziecię Dagona we wskazanym miejscu.</i>
-EventRevealKillerShort.text,Postać odziana w długie, luźne szaty wyłania się z wnętrza chaty.\nPostać wzrostem przypomina Naomi O'Bannion.\nNa świeżym powietrzu postać odrzuca kaptur na plecy.
+EventRevealKillerShort.text,Postać odziana w długie, luźne szaty wyłania się z wnętrza chaty.\nPostać jest podobnego wzrostu co Naomi O'Bannion.\nNa świeżym powietrzu postać odrzuca kaptur na plecy.
 EventRitualK2.text,Kaptur skrywał twarz Naomi O'Bannion.\nKobieta unosi do ust małą buteleczkę i pije jakąś zieloną ciecz.\n\n<i>- Nareszcie! Lloigor zmiażdży każdego kto stanie na mojej drodze!\nPrzejmę Arkham, a potem Chicago!\nPewnie, musiałam po drodze zabić Duncana i kilku innych ale nie da się zrobić jajecznicy bez rozbijania jajek.</i>\n\nNagle zaczyna krzyczeć przeraźliwie gdy jej ciało zaczyna się przeobrażać.
 EventRitualK3.text,Kaptur skrywał twarz Loli Santiago.\nKobieta unosi do ust małą buteleczkę i pije jakąś zieloną ciecz.\n\n<i>- Nareszcie mój lud doczeka się zemsty!\nArkham zostanie starte z powierzchni ziemi!</i>\n\nNagle zaczyna krzyczeć przeraźliwie gdy jej ciało zaczyna się przeobrażać.
 EventRitualK3.button1,{qst:QSTCONTINUE}
@@ -876,7 +869,7 @@ EventLolaCalmNo.text,<i>- Nawet nie wiesz co się dzieje w tym plugawym mieście
 EventLolaCalmNo.button1,{qst:QSTCONTINUE}
 EventLolaCalm.text,Starasz się przekonać Lolę, że protest zmierza w kierunku przerodzenia się regularne zamieszki ({influence}, 2).
 EventLolaCalmYesMore.button1,{qst:QSTCONTINUE}
-EventLolaCalmYesMore.text,Odwraca się w kierunku sklepu i zwraca się do ciebie.\n\n<i>- Nie osądzaj ich zbyt surowo.\nGang O'Bannion od lat ściąga tutaj haracze.\nWysyła swoich zbirów żeby bili, poniżali i okradali ciężko pracujących ludzi.\nDopiero ja postawiłam się Naomi.\nA jedyna osoba, która jest na tyle odważna żeby mnie poprzeć to redaktor naczelny gazety John Johnson.\nJest jedynym prawdziwym przyjacielem.</i>\n\n<i>Zyskujesz 1 Wskazówkę {clue}.</i>
+EventLolaCalmYesMore.text,Odwraca się w kierunku sklepu i zwraca się do ciebie.\n\n<i>- Nie osądzaj ich zbyt surowo.\nGang O'Bannion od lat ściąga tutaj haracze.\nWysyła swoich zbirów żeby bili, poniżali i okradali ciężko pracujących ludzi.\nDopiero ja postawiłam się Naomi.</i>\n\n<i>Zyskujesz 1 Wskazówkę {clue}.</i>
 EventLolaKiller.button1,{qst:QSTCONTINUE}
 EventLola_Killer_Pipes.text,{qst:QSTLOLA}
 EventLolaSuspectsGangsPage1.button1,{qst:QSTCONTINUE}
@@ -1344,7 +1337,7 @@ EventHitmanSnapShotFail.text,Jego strzały okazują się celne.\n\n<i>Przyjmujes
 EventHitmanSnapShotFail.button1,{qst:QSTCONTINUE}
 EventHitmanEntersSpeakeasy.button2,{qst:QSTNO}
 EventEntersBilliards.button2,{qst:QSTNO}
-EventInspectForensic.text,Przeglądasz swoje notatki dotyczące zwłok z chłodni w kostnicy.\nZginął około tygodnia temu.\nPrzyczyną śmierci były liczne rany zadane ostrą bronią.\nCiało zostało pozbawione kilku żeber, prawej nogi i kawałka kręgosłupa.\nTwarz ofiary została zmiażdżona.\nW kurtce denata znalazłeś kawałek papieru wyrwany z notesu.\nKartka miała brązowe ślady nikotyny.\nNa resztkach zębów, na palcach ani na ubraniach nie zauważyłeś jednak takich śladów.
+EventInspectForensic.text,Przeglądasz swoje notatki dotyczące zwłok z chłodni w kostnicy.\nMężczyzna zginął około tygodnia temu.\nPrzyczyną śmierci były liczne rany zadane ostrą bronią.\nCiało zostało pozbawione kilku żeber, prawej nogi i kawałka kręgosłupa.\nTwarz ofiary została zmiażdżona.\nW kurtce denata znalazłeś kawałek papieru wyrwany z notesu.\nKartka miała na sobie brązowe ślady od nikotyny.\nNa resztkach zębów, na palcach ani na ubraniach nie zauważyłeś jednak takich śladów - ofiara nie paliła.\nZauważyłeś też szare ślady popiołu pochodzącego z papierosa lub cygara.
 EventInspectForensic.button1,{qst:QSTCONTINUE}
 EventMapLabelS1.text,Na odwrocie drukowanej mapy znajduje się pieczątka z ceną.\n<i>Sklep z Ciekawostkami 2$</i>.
 EventWatchDate34.text,Tylko początek daty udaje się odczytać: <i>3 kwietnia</i>.
@@ -1358,8 +1351,8 @@ EventPuzzleLedgerClue.button1,{qst:QSTCONTINUE}
 EventPuzzleLedger.text,Zapiski w notesie są zaszyfrowane.
 EventPuzzleLedger.button1,{action} Złam szyfr
 EventPuzzleLedger.button2,{qst:QSTCANCEL}
-PuzzleLedger34Level4.button1,Przeczytaj notes
-PuzzleLedger42Level4.button1,Przeczytaj notes
+PuzzleLedger34Level4.button1,{qst:QSTREADLEDGER}
+PuzzleLedger42Level4.button1,{qst:QSTREADLEDGER}
 PuzzleLedger34Level5.button1,{qst:QSTREADLEDGER}
 PuzzleLedger42Level5.button1,{qst:QSTREADLEDGER}
 PuzzleLedger53Level5.button1,{qst:QSTREADLEDGER}
@@ -1536,7 +1529,7 @@ EventPlaceCornerToEastStreet.text,Ulica ciągnie się dalej.\n\n<i>{qst:QSTPLACE
 EventPlaceCornerToEastStreet.button1,{qst:QSTCONTINUE}
 UIFinaleWrongKillerText.uitext,Twoje sny nawiedzają wizje Lloigora.\nSłyszysz jego zawodzenia dobiegające z daleka.\nCo prawda udało ci się zniszczyć jego fizyczną formę tej demonicznej kreatury, jednak morderca zdołał dopełnić rytuału przyzwania.\nZwyciężyłeś jednak twoje zwycięstwo jest jedynie tymczasowe.\nW końcu demoniczny byt odzyska siły.\nPewnego dnia znów wyciągnie macki swoich złowrogich wpływów w kierunku Arkham i znajdzie kogoś chętnego by mu służyć.\nModlisz się o to, żeby wtedy ktoś był gotowy stawić mu czoło i zniszczyć go raz na zawsze.
 EventArrestedK5S2.text,<i>- Miałeś rację!\nZ pomocą policji z Newport dokonałem zatrzymania Johna Johnsona.\nFacet jest przekonany, że jest kolejnym wcieleniem pułkownika Kane'a.\nJohnson spędził mnóstwo czasu w Towarzystwie Historycznym studiując dzieje swojego przodka.\nWedług mnie Lloigor wślizgnął się do umysłu Johnsona i karmił jego gniewem, uprzedzeniami i fanatyzmem tak długo, aż doprowadził go do szaleństwa.\nJohnson zapoczątkował kampanię prasową dążącą do wypędzenia Indian Misqat z hrabstwa Arkham.\nLloigor pomógł mu ukraść fletnię i złożyć w ofierze Duncana i ochroniarza.\nJohnson sam podłożył ogień w redakcji żeby zniszczyć archiwa.</i>
-EventBibleStory2More.text,<i>- {qst:QSTPROFESSOR} może nie być takim praworządnym obywatelem na jakiego z pozoru wygląda.\n{qst:QSTNAOMI} odwiedzała muzeum kilkukrotnie.\nProfesor przyjaźni się z członkiem gangu Sheldona, Tony'm Zavaronim.\n\n{qst:QSTEDITOR} często odwiedzał {qst:QSTSOCIETY} i szukał informacji o swoim drzewie genealogicznym.\nUtrzymywał te wizyty w tajemnicy ponieważ uważa, że jeden z jego przodków dopuścił się nikczemnych czynów.</i>
+EventBibleStory2More.text,<i>- {qst:QSTPROFESSOR} może nie być takim praworządnym obywatelem na jakiego z pozoru wygląda.\n{qst:QSTNAOMI} odwiedzała muzeum kilkukrotnie.\nProfesor przyjaźni się z członkiem gangu Sheldona, Tony'm.\n\n{qst:QSTEDITOR} często odwiedzał {qst:QSTSOCIETY} i szukał informacji o swoim drzewie genealogicznym.\nUtrzymywał te wizyty w tajemnicy ponieważ uważa, że jeden z jego przodków dopuścił się nikczemnych czynów.</i>
 EventBibleStory2More.button1,{qst:QSTCONTINUE}
 QSTKNOWBERTIE,{action} Znasz Bertiego Binghama?
 QSTKNOWPROF,{action} Znasz profesora Smitha?
@@ -1567,7 +1560,7 @@ EventSlabExamineFail.text,{qst:QSTAUTOPSYFAIL}
 EventSlabExamineFail.button1,{qst:QSTCONTINUE}
 EventFreezerSearchFail.text,{qst:QSTAUTOPSYFAIL}
 EventFreezerSearchFail.button1,{qst:QSTCONTINUE}
-EventBrandProfessorAlibi.text,Pamiętasz, że gangster, Tony Zavaroni twierdził, że profesor Smith leżał w szpitalu i został wypisany przedwczoraj.
+EventBrandProfessorAlibi.text,Pamiętasz, że gangster, Tony twierdził, że profesor Smith leżał w szpitalu i został wypisany przedwczoraj.
 EventBrandProfessorAlibi.button1,{qst:QSTCONTINUE}
 EventPoliceResignFail.text,<i>- Tacy mąciciele jak ty i Duncan nic tylko rozpowszechniacie oszczerstwa o mnie!\nZmówiliście się, żeby się mnie pozbyć!</i>
 EventPoliceResignFail.button1,{qst:QSTCONTINUE}
@@ -1586,4 +1579,5 @@ TokenSetKillerStory2.button5,Zabójca 6 {qst:QSTPROFESSOR}
 TokenTest.text,Testuj
 TokenTestStoryVariables.button1,{qst:QSTCONTINUE}
 TokenTestMythosVariables.text,Runda: {var:#round}\nBadacze: {var:#heroes}\nMythos Minor: {var:$mythosMinor}\nMythos Major: {var:$mythosMajor}\nMythos Deadly: {var:$mythosDeadly}
-,
+EventLolaCalmYesMoreStory1.text,<i>Jedyna osoba, która jest na tyle odważna żeby mnie poprzeć to redaktor naczelny gazety John Johnson.\nJest jedynym prawdziwym przyjacielem.</i>
+EventLolaCalmYesMoreStory1.button1,{qst:QSTCONTINUE}
